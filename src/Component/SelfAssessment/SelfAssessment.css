@@ -1,0 +1,32 @@
+.clock {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  background: black;
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: 2px solid #ffb902;
+}
+.second {
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  animation: time 3s infinite linear;
+}
+.second::before {
+  position: absolute;
+  content: "";
+  background: #ffb902;
+  height: 10px;
+  width: 2px;
+  top: 10px;
+}
+
+@keyframes time {
+  to {
+    transform: rotate(360deg);
+  }
+}

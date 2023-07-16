@@ -1,0 +1,51 @@
+.bannerBackground {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width: 1920px;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.conicAnimation {
+  position: absolute;
+  top: -650px;
+  left: -150px;
+  width: 2200px;
+  height: 2200px;
+  background-image: conic-gradient(from 40deg, #ffb902, #fff);
+  background-size: 100% 100%;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1535px) and (min-width: 1024px) {
+  .bannerBackground {
+    max-width: 1535px;
+    min-height: 100vh;
+  }
+
+  .conicAnimation {
+    top: -500px;
+    left: -450px;
+    width: 1600;
+    height: 1600px;
+  }
+}

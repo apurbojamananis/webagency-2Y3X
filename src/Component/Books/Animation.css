@@ -1,0 +1,94 @@
+.animation {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.AnimationCard {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  column-gap: 20px;
+}
+
+.building-block {
+  background-color: #ffb902;
+  flex: 1;
+  transform: translateY(100%);
+}
+
+.block1 {
+  animation: slideAnimation1 5s infinite;
+}
+
+.block2 {
+  animation: slideAnimation2 4s infinite;
+  animation-delay: 3s;
+}
+
+.block3 {
+  animation: slideAnimation3 3s infinite;
+  animation-delay: 5s;
+}
+
+.block4 {
+  animation: slideAnimation4 5s infinite;
+  animation-delay: 8s;
+}
+
+.block5 {
+  animation: slideAnimation5 3s infinite;
+  animation-delay: 4s;
+}
+
+@keyframes slideAnimation1 {
+  0%,
+  100% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideAnimation2 {
+  0%,
+  100% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideAnimation3 {
+  0%,
+  100% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideAnimation4 {
+  0%,
+  100% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideAnimation5 {
+  0%,
+  100% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
