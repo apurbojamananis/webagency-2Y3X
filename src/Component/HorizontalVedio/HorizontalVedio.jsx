@@ -8,14 +8,14 @@ const HorizontalVedio = () => {
           <p className="font-medium">
             Founder Felix Velarde on the 2Y3X method
           </p>
-          <h2 className="text-7xl font-medium">
+          <h2 className="text-6xl sm:text-7xl leading-[64px] sm:leading-7xl  font-medium px-2 sm:px-0 mt-5 sm:mt-0">
             Two years to triple revenue. How we do it.
           </h2>
         </div>
         <div className=" my-10">
           <div className="relative">
-            <img src="./HSlide1.png" alt="" className="w-full " />
-            <FaPlay className="absolute top-[50%] left-[50%] text-9xl text-white opacity-50"></FaPlay>
+            <img src="./HSlide1.png" alt="" className="w-full px-5 " />
+            <FaPlay className="absolute top-[50%] left-[50%] text-6xl sm:text-9xl text-white opacity-50"></FaPlay>
           </div>
         </div>
         <div className="text-center">

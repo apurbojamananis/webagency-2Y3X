@@ -12,15 +12,15 @@ const Footer = () => {
         <div>
           <img src="./Logo2.png" alt="" />
         </div>
-        <div className="flex justify-between pt-10">
+        <div className="sm:flex justify-between pt-10">
           <div>
             <h5 className="font-medium">Contact</h5>
-            <div className="flex gap-5 mt-8">
-              <div className="flex flex-col gap-y-8">
+            <div className="flex gap-5 mt-4 sm:mt-8">
+              <div className="flex flex-col gap-y-4 sm:gap-y-8">
                 <p>UK & Europe</p>
                 <p>USA & Canada</p>
               </div>
-              <div className="flex flex-col gap-y-8">
+              <div className="flex flex-col gap-y-4 sm:gap-y-8">
                 <p>
                   <a href="#">info@2y3x.com</a>
                 </p>
@@ -30,16 +30,16 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="pt-10 sm:pt-0">
             <h5 className="font-medium">2Y3X Programme</h5>
-            <ul className="flex flex-col gap-y-4 mt-8">
+            <ul className="flex flex-col gap-y-4 mt-4 sm:mt-8">
               <li>Events</li>
               <li>Insights & Media</li>
               <li>Meet the team</li>
               <li>Contact</li>
             </ul>
           </div>
-          <div>
+          <div className="mt-10 sm:mt-0">
             <div className="bg-white bg-opacity-10 p-10 w-[70%] text-center">
               <h5 className="font-medium">2Y3X Programme</h5>
               <p className="mt-6">
@@ -52,13 +52,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      
       </section>
-        <section className="container mx-auto">
-        <hr />
-        </section>
       <section className="container mx-auto">
-        <div className="flex items-center justify-between py-14 px-5">
+        <hr />
+      </section>
+      <section className="container mx-auto">
+        <div className="sm:flex items-center justify-between py-14 px-8">
           <div>
             <div>
               <ul className="flex items-center gap-5">
@@ -71,7 +70,7 @@ const Footer = () => {
               Maximiser® are Registered Trade Marks
             </p>
           </div>
-          <div>
+          <div className="mt-10 sm:mt-0">
             <img src="./GBC.png" alt="" />
           </div>
         </div>

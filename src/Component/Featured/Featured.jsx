@@ -15,12 +15,12 @@ const Featured = () => {
       <div className=" container mx-auto pt-32 pb-32">
         <div>
           <p className="font-medium">Our Views</p>
-          <div className="flex items-center justify-between">
+          <div className="sm:flex items-center justify-between">
             <div>
               <h2 className="text-7xl font-medium ">Featured Insights</h2>
             </div>
 
-            <div className="flex gap-5 text-blue-500 text-3xl">
+            <div className="flex gap-5 text-blue-500 text-3xl mt-10 sm:mt-0">
               <button className="border-2 border-yellow-500 py-1 px-3 text-black">
                 <FaArrowLeftLong></FaArrowLeftLong>
               </button>
@@ -35,12 +35,12 @@ const Featured = () => {
             slidesPerView={1.5}
             // navigation={true}
             // modules={[Navigation]}
-            className="mySwiper bg-[#D9D9D9] bg-opacity-10 Featured"
+            className="mySwiper Featured bg-[#D9D9D9] bg-opacity-10"
           >
-            <SwiperSlide className="featuredSlide">
-              <div className="pr-10 bg-[#D9D9D9] bg-opacity-10">
+            <SwiperSlide className="featuredSlide mx-1 ">
+              <div className="pr-5 sm:pr-10 bg-[#D9D9D9] bg-opacity-10">
                 <div className="relative">
-                  <div className="h-[440px]">
+                  <div className="h-[240px] sm:h-[440px]">
                     <img src="./image1.png" alt="" />
                   </div>
                   <div className="flex items-center gap-2 absolute top-5 left-4 text-white">
@@ -50,11 +50,11 @@ const Featured = () => {
                 </div>
                 <div className="text-left">
                   <p className="opacity-30 mt-5">Content tag here</p>
-                  <h2 className="text-[40px] leading-[60px] font-semibold">
+                  <h2 className="text-[32px] sm:text-[40px] leading-[40px] sm:leading-[60px] font-semibold">
                     Title for featured story will go here across two lines if
                     needed
                   </h2>
-                  <p className="text-xl leading-[30px] mt-5">
+                  <p className="text-lg sm:text-xl leading-[30px] mt-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Etiam eu turpis molestie, dictum est a, mattis tellus. Sed
                     dignissim, metus nec fringilla accumsan, risus sem
@@ -68,11 +68,11 @@ const Featured = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="featuredSlide">
+            <SwiperSlide className="featuredSlide mx-1">
               {" "}
               <div className="pr-10 bg-[#D9D9D9] bg-opacity-10">
                 <div className="relative">
-                  <div className="h-[440px]">
+                  <div className="h-[240px] sm:h-[440px]">
                     <img src="./image2.png" alt="" />
                   </div>
                   <div className="flex items-center gap-2 absolute top-5 left-4 text-white">
@@ -82,11 +82,11 @@ const Featured = () => {
                 </div>
                 <div className="text-left">
                   <p className="opacity-30 mt-5">Content tag here</p>
-                  <h2 className="text-[40px] leading-[60px] font-semibold">
+                  <h2 className="text-[32px] sm:text-[40px] leading-[40px] sm:leading-[60px] font-semibold">
                     Title for featured story will go here across two lines if
                     needed
                   </h2>
-                  <p className="text-xl leading-[30px] mt-5">
+                  <p className="text-lg sm:text-xl leading-[30px] mt-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Etiam eu turpis molestie, dictum est a, mattis tellus. Sed
                     dignissim, metus nec fringilla accumsan, risus sem
@@ -102,10 +102,10 @@ const Featured = () => {
             </SwiperSlide>
 
             {/* third slide */}
-            <SwiperSlide className="featuredSlide">
+            <SwiperSlide className="featuredSlide mx-1">
               <div className="pr-10 bg-[#D9D9D9] bg-opacity-10">
                 <div className="relative">
-                  <div className="h-[440px]">
+                  <div className="h-[240px] sm:h-[440px]">
                     <img src="./image1.png" alt="" />
                   </div>
                   <div className="flex items-center gap-2 absolute top-5 left-4 text-white">
@@ -115,11 +115,11 @@ const Featured = () => {
                 </div>
                 <div className="text-left">
                   <p className="opacity-30 mt-5">Content tag here</p>
-                  <h2 className="text-[40px] leading-[60px] font-semibold">
+                  <h2 className="text-[32px] sm:text-[40px] leading-[40px] sm:leading-[60px] font-semibold">
                     Title for featured story will go here across two lines if
                     needed
                   </h2>
-                  <p className="text-xl leading-[30px] mt-5">
+                  <p className="text-lg sm:text-xl leading-[30px] mt-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Etiam eu turpis molestie, dictum est a, mattis tellus. Sed
                     dignissim, metus nec fringilla accumsan, risus sem

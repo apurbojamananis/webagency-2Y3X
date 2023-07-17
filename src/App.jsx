@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./Component/Navbar/Navbar";
+// import Navbar from "./Component/Navbar/Navbar";
 import Banner from "./Component/Banner/Banner";
 import Agency from "./Component/Agency/Agency";
 import HindSight from "./Component/HindSight/HindSight";
@@ -13,11 +13,13 @@ import Podcast from "./Component/Podcast/Podcast";
 import Books from "./Component/Books/Books";
 import Footer from "./Component/Footer/Footer";
 import HorizontalVedio from "./Component/HorizontalVedio/HorizontalVedio";
+import Header from "./Component/Navbar/Header";
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
+      <Header></Header>
       <Banner></Banner>
       <Agency></Agency>
       <HindSight></HindSight>

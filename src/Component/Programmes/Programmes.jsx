@@ -6,15 +6,17 @@ const Programmes = () => {
       <div className="my-20">
         <div className="text-center">
           <p className="font-medium">Start your 2Y3X journey</p>
-          <h2 className="text-7xl font-medium">Our programmes and workshops</h2>
+          <h2 className="text-6xl sm:text-7xl font-medium mt-5 sm:mt-0">
+            Our programmes and workshops
+          </h2>
         </div>
-        <div className="mt-16 flex justify-around gap-2">
+        <div className="mt-16 sm:flex justify-around sm:gap-2 gap-x-5">
           <div className=" xl:w-[400px] 2xl:w-[500px]  relative  z-10 pb-20">
             <div className="text-center  ">
               <div className="pt-10">
                 <h3 className="font-semibold ">Strategy Map</h3>
               </div>
-              <div className="flex justify-center xl:mt-10 2xl:mt-20 xl:h-[150px] 2xl:h-[180px]">
+              <div className="flex justify-center mt-10 2xl:mt-20 xl:h-[150px] 2xl:h-[180px]">
                 <img src="./StrategyMap.png" alt="" />
               </div>
               <p className="mt-10 px-16">
@@ -43,7 +45,7 @@ const Programmes = () => {
               <div className="pt-10">
                 <h3 className="font-semibold ">QuickMap</h3>
               </div>
-              <div className="flex justify-center xl:mt-10 2xl:mt-20 xl:h-[150px] 2xl:h-[180px]">
+              <div className="flex justify-center mt-10 2xl:mt-20 xl:h-[150px] 2xl:h-[180px]">
                 <img src="./QuickMap.png" alt="" />
               </div>
               <p className="mt-10 px-16">
@@ -72,7 +74,7 @@ const Programmes = () => {
               <div className="pt-10">
                 <h3 className="font-semibold ">Proposition Development</h3>
               </div>
-              <div className="flex justify-center xl:mt-10 2xl:mt-20 xl:h-[150px] 2xl:h-[180px]">
+              <div className="flex justify-center mt-10 2xl:mt-20 xl:h-[150px] 2xl:h-[180px]">
                 <img src="./PropositionDevelopment.png" alt="" />
               </div>
               <p className="mt-10 px-16">

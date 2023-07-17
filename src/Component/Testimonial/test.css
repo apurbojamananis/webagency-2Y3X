@@ -42,3 +42,9 @@
     height: 450px;
   }
 }
+
+@media only screen and (max-width: 639px) and (min-width: 0px) {
+  .swiper {
+    height: 450px;
+  }
+}

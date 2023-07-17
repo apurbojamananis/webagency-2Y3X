@@ -23,15 +23,18 @@ const Testimonial = () => {
       }}
     >
       <div className="bg-white bg-opacity-0">
-        <div className="flex py-32">
-          <div className="w-1/3  flex items-center">
+        <div className=" sm:flex py-32">
+          <div className="w-full sm:w-1/3  flex items-center">
             <div className="px-10">
               <p className="font-medium">Making Change</p>
               <h2 className="text-7xl font-medium">Consistent results</h2>
             </div>
           </div>
-          <div className="w-2/3">
-            <Swiper slidesPerView={2.2} spaceBetween={30}>
+          <div className="w-full sm:w-2/3 mt-10 sm:mt-0">
+            <Swiper
+              slidesPerView={1.2}
+              spaceBetween={30}
+            >
               <SwiperSlide className="border-2 border-yellow-500 hover:bg-yellow-500 mx-2">
                 <div className="absolute top-0 newCard ">
                   <div className="py-10 px-5 ">
@@ -46,8 +49,8 @@ const Testimonial = () => {
                     </h2>
                     <p className="text-left text-xl mt-5">
                       “Brilliant at getting management to focus on what really
-                      matters and getting us to go of that are not
-                      contributing to our strategic aims.”
+                      matters and getting us to go of that are not contributing
+                      to our strategic aims.”
                     </p>
                     <div className="mt-8 flex items-center gap-3">
                       <div className="w-16 ">
@@ -78,8 +81,9 @@ const Testimonial = () => {
                       From reactive to being really proactive
                     </h2>
                     <p className="text-left text-xl mt-5">
-                      “We moved from being reactive to being really proactive everyday in
-                      absolutely everything we do. So we really happy with it”
+                      “We moved from being reactive to being really proactive
+                      everyday in absolutely everything we do. So we really
+                      happy with it”
                     </p>
                     <div className="mt-8 flex items-center gap-3">
                       <div className="w-16 ">

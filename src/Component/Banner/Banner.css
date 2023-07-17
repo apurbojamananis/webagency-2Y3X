@@ -49,3 +49,13 @@
     height: 1600px;
   }
 }
+
+@media only screen and (max-width: 639px) and (min-width: 0px) {
+  .bannerBackground {
+    background-image: linear-gradient(to top, #fbbf24, #f3f37a);
+  }
+
+  .conicAnimation {
+    display: none;
+  }
+}
