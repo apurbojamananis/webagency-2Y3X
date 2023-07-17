@@ -40,7 +40,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="mt-10 sm:mt-0">
-            <div className="bg-white bg-opacity-10 p-10 w-[70%] text-center">
+            <div className="bg-white bg-opacity-10 p-5 sm:p-10 w-[90%] sm:w-[70%] text-center">
               <h5 className="font-medium">2Y3X Programme</h5>
               <p className="mt-6">
                 This is a how-to guide, matching theory with easily actionable
